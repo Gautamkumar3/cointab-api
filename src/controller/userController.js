@@ -8,7 +8,7 @@ const fetchUserFromapi = async () => {
   return res.data.results;
 };
 
-// ############# add user to database ################
+// ##############  add user to database #################
 
 const addUser = async (req, res) => {
   try {
